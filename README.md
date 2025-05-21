@@ -95,8 +95,13 @@
    npm install
    ```
 
-3. **启动演示界面:**
+3. **复制环境配置文件:**
 
+   ```bash
+   cp .env.example .env.local
+   # 根据需要修改 NEXT_PUBLIC_API_BASE_URL
+   ```
+4. **启动演示界面:**
    ```bash
    npm run dev
    ```
@@ -213,6 +218,12 @@
 * [x] 字幕擦除前端界面
 * [x] 视频压制前端界面
 * [x] AI 解说交互界面
+
+## 🤝 贡献指南
+
+1. Fork 本仓库并创建分支。
+2. 提交 PR 前请运行 `npm run lint` 保持代码风格一致。
+3. 提交信息请遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 规范。
 
 ## 🔐 许可说明
 

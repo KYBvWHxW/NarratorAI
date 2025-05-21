@@ -95,7 +95,14 @@
    npm install
    ```
 
-3. **Start the demo interface:**
+3. **Copy the environment file:**
+
+   ```bash
+   cp .env.example .env.local
+   # Edit NEXT_PUBLIC_API_BASE_URL if needed
+   ```
+
+4. **Start the demo interface:**
 
    ```bash
    npm run dev
@@ -211,6 +218,12 @@
 * [x] Subtitle removal frontend interface
 * [x] Video embedding frontend interface
 * [x] AI narration interactive interface
+
+## 🤝 Contributing
+
+1. Fork this repository and create a feature branch.
+2. Run `npm run lint` before opening a PR to keep code style consistent.
+3. Commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 ## 🔐 License
 
