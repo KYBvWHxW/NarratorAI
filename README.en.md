@@ -207,10 +207,10 @@
 
 * [x] Video translation interface
 * [x] SRT subtitle translation functionality
-* [ ] Subtitle extraction frontend interface
-* [ ] Subtitle removal frontend interface
-* [ ] Video embedding frontend interface
-* [ ] AI narration interactive interface
+* [x] Subtitle extraction frontend interface
+* [x] Subtitle removal frontend interface
+* [x] Video embedding frontend interface
+* [x] AI narration interactive interface
 
 ## 🔐 License
 
